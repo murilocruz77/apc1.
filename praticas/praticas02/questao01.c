@@ -4,10 +4,10 @@
 #include <math.h>
 
 int main() {
-  float numero1
-  float numero2
-  float numero3
-  float media
+  float numero1;
+  float numero2;
+  float numero3;
+  float media;
 
   printf("entre com o primeiro numero: ");
   int deu_certo = scanf("%f", &numero1);
@@ -16,7 +16,7 @@ int main() {
   deu_certo = scanf("%f", &numero2);
 
   printf("entre com o terceiro numero: ");
-  deu_certo = sacanf("%f", &numero3);
+  deu_certo = scanf("%f", &numero3);
 
   media = (numero1 + numero2 + numero3) / 3;
 
